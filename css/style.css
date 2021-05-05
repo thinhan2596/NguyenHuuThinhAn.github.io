@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0
+}
+.navbar-brand img {
+    width: 50%
+}
+.chinhtop a {
+    color: white;
+}
+.banner {
+    background-image: url("../image/imagebg.png"), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 100vh;
+}
+.hr {
+    border: solid;
+    width: 60px;
+}
+.chinhtext {
+    color: white;
+    padding-top: 20%;
+    font-size: 30px;
+}
+button.btn.btn-dark {
+    border: solid 1px #FFFFFF;
+}
+/*so2*/
+.hr3 {
+    border: solid 1px #ACACAC
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook-f {
+    color: gray;
+    font-size: 40px !important;
+}
+.fa-twitter {
+    color: gray;
+    font-size: 40px !important;
+}
+.fa-google-plus {
+    color: gray;
+    font-size: 40px !important;
+}
+.fa-pinterest {
+    color: gray;
+    font-size: 40px !important;
+}
+.fa-instagram {
+    color: gray;
+    font-size: 40px !important;
+}
+.fa-stumbleupon {
+    color: gray;
+    font-size: 40px !important;
+}
+.fa-rss {
+    color: gray;
+    font-size: 40px !important;
+}
+/*so3*/
+#so3 {
+    background-color: #F4F4F4
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #ff6600 !important;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    padding-top: 40px
+}
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    background: #000000 !important;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    padding-top: 40px;
+    color: white
+}
+/*so4*/
+.fa-cloud-upload {
+    border: solid 2px #ff6600;
+    border-radius: 50%;
+    background: white;
+    color: #ff6600;
+    padding-right: 20px;
+}
+.fa-cloud-download {
+    border: solid 2px #ff6600;
+    border-radius: 50%;
+    background: white;
+    color: #ff6600;
+    padding-right: 20px;
+}
+.boxnho {
+    width: 60px!important;
+    height: 60px!important;
+}
+/*so5*/
+#so5 {
+    background-color: #F4F4F4
+}
+/*so6*/
+.fa-lightbulb-o {
+    border: solid 2px #ff6600;
+    border-radius: 50%;
+    background: white;
+    color: #ff6600;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.fa-keyboard-o {
+    border: solid 2px #ff6600;
+    border-radius: 50%;
+    background: white;
+    color: #ff6600;
+    padding-right: 20px;
+}
+.fa-bolt {
+    border: solid 2px #ff6600;
+    border-radius: 50%;
+    background: white;
+    color: #ff6600;
+    padding-right: 20px;
+}
+.boxto {
+    width: 60px!important;
+    height: 60px!important;
+}
+/*so7*/
+#so7 {
+    background-color: #F4F4F4
+}
+.headerprice {
+    color: white;
+    border-bottom: solid 1px #FFFFFF;
+    padding: 2px;
+}
+.price {
+    color: white;
+    border-bottom: solid 1px #FFFFFF;
+    padding: 2px;
+}
+.price h1 {
+    font-size: 80px
+}
+.smallprice {
+    font-size: 30px;
+}
+.pricetext {
+    color: #8E8E8E;
+    border-bottom: solid 5px #ff6600;
+    padding-top: 15px;
+}
+.textprice {
+    border-bottom: solid 1px #CFCFCF;
+    padding: 2px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.priceorange {
+    height: 40px;
+    background-color: #ff6600;
+    color: white;
+    padding: 2px;
+}
+.boxnone {
+    height: 40px;
+}
+/*so8*/
+.banner2 {
+    background-image: url("../image/u25_state0.png"), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 50vh;
+}
+.chinhtext2 {
+    color: white;
+    padding-top: 5%;
+    font-size: 30px;
+}
+.hr2 {
+    border: solid 1px #ff6600;
+    width: 60px;
+}
+/*so9*/
+.bgo {
+    background: #ff6600 !important
+}
+input:focus {
+    outline-width: 0px !important;
+    ;
+    border-bottom: solid 1px #A3A3A3 !important;
+}
+input {
+    color: #A3A3A3;
+    border: none !important;
+    border-bottom: solid 1px #A3A3A3 !important;
+}
+textarea {
+    color: #A3A3A3;
+    border: none !important;
+    border-bottom: solid 1px #A3A3A3 !important;
+}
+.btlogo {
+    font-size: 20px!important;
+    width: 50px!important;
+}
+
+
+@media screen and (max-width: 414px) {
+  .chinhtext {
+    color: white;
+    padding-top: 20%;
+    font-size: 10px;
+}
+    .chinhtext .hr{border: solid 2px;}
+    .chinhtext h1{font-size: 20px;}
+    
+    div#v-pills-tab.nav.flex-column.nav-pills{ width: 100px; height: 100px; font-size: 20px; margin-left: 45px; margin-bottom: 40px;}
+    
+    .mbimage{width: 70vh}
+    .mbt{text-align: center}
+    .mbtt{margin-left: 20vh; margin-bottom: 20px;}
+    .chinhtext2 {font-size: 10px; padding-top: 1vh!important;}
+    .chinhtext2 .hr{border: solid 2px;}
+    .chinhtext2 h1{font-size: 20px;}
+    .mblogo .fa{padding: 10px!important;
+    width: 80px!important;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;}
+}
